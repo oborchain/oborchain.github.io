@@ -1,0 +1,37 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.truffle-solidity-loader
+
+.idea
+*.iml
+
+tmp
+.tmp
+local
+dist
+public/js
+public/css
+public/bower_components
+
+.nyc_output
+
+# public fonts and shit
+public/fonts
+public/_/sass
+
+# generated content
+_site/*

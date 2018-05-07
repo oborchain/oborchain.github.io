@@ -1,0 +1,38 @@
+# Site settings
+title: "FundRequest - Boost open source"
+email: "info@fundrequest.io"
+description: "A decentralized marketplace for open source collaboration. FundRequest is a system for custom support that will boost the Open Source community as a whole – from developer to end user."
+keywords: "fundrequest, ico, github funding, issue funding, funding, ethereum, eth"
+url: "https://fundrequire.io" # the base hostname & protocol for your site
+twitter_username: fundrequest_io
+github_username:  FundRequest
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - scss/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+pagesurl: "/pages"
+vendorsurl: "/assets/vendors"
+imgurl: "/assets/img"
+imageurl: "/assets/img"
+cssurl: "/assets/css"
+jsurl: "/assets/js"
