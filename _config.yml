@@ -24,6 +24,7 @@ url: "oborchain.github.io" # the base hostname & protocol for your site, e.g. ht
 twitter_username: aruzikulov
 github_username:  aruzikulov
 timezone: UTC+08:00
+future: true
 
 # Build settings
 markdown: kramdown
