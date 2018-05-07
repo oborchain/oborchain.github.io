@@ -1,0 +1,116 @@
+<section id="steps" class="section section--steps section--compact section--light section--squares section--squares--bottom">
+    <div class="container">
+        <h2 class="section__title">Fundrequest in 3 easy steps:</h2>
+        <div class="row">
+            <div class="col-10 offset-1 text-center">
+                <p class="font-weight-bold">
+                    Funding any goal or issue will be painless and easy, thanks to an intuitive front-end application
+                    for online and mobile use. One of the milestones we've included in our roadmap is the development of
+                    a Chrome browser add-on so that you can fund issues on your favorite platform.
+                </p>
+            </div>
+            <div class="col-12">
+                <div class="vertical-line"></div>
+                <div class="row text-center text-md-left py-md-5">
+                    <div class="col-12 col-md-2 d-flex justify-content-center justify-content-md-start align-items-center">
+                        <div class="nav flex-row flex-md-column nav-pills nav-pills--roadmap" id="v-pills-tab" role="tablist"
+                             aria-orientation="vertical">
+                            <a class="nav-link active d-flex align-items-center" id="v-pills-create-tab"
+                               data-toggle="pill" href="#v-pills-create"
+                               role="tab" aria-controls="v-pills-create" aria-selected="true">
+                                <span class="nav-link__number">1</span>
+                                <span class="nav-link__text">Create</span>
+                            </a>
+                            <a class="nav-link d-flex align-items-center" id="v-pills-fund-tab" data-toggle="pill"
+                               href="#v-pills-fund" role="tab" aria-controls="v-pills-fund" aria-selected="false">
+                                <span class="nav-link__number"><span>2</span></span>
+                                <span class="nav-link__text">Fund</span>
+                            </a>
+                            <a class="nav-link d-flex align-items-center" id="v-pills-approve-tab" data-toggle="pill"
+                               href="#v-pills-approve" role="tab" aria-controls="v-pills-approve" aria-selected="false">
+                                <span class="nav-link__number"><span>3</span></span>
+                                <span class="nav-link__text">Approve</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-10">
+                        <div class="tab-content tab-content--smooth-fade" id="v-pills-tabContent">
+                            <div class="tab-pane active" id="v-pills-create" role="tabpanel"
+                                 aria-labelledby="v-pills-create-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center flex-column">
+                                        <div class="text-center d-block d-md-none">
+                                            <h3>Create issue</h3>
+                                        </div>
+                                        <div class="svg--nav-pills">
+                                            {% include svg/create-issue.html %}
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8 d-flex justify-content-center flex-column">
+                                        <h3 class="d-none d-md-block">Create issue</h3>
+                                        <p>
+                                            Any user can create a request based on a feature they want to see or a bug
+                                            they’ve
+                                            encountered. They can also add a monetary reward to the request. After
+                                            validation by
+                                            the Ethereum blockchain, a smart contract is generated for the specific
+                                            issue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="v-pills-fund" role="tabpanel"
+                                 aria-labelledby="v-pills-fund-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center flex-column">
+                                        <div class="text-center d-block d-md-none">
+                                            <h3>Fund issue</h3>
+                                        </div>
+                                        <div class="svg--nav-pills">
+                                            {% include svg/fund-issue.html %}
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8 d-flex justify-content-center flex-column">
+                                        <h3 class="d-none d-md-block">Fund issue</h3>
+                                        <p>
+                                            Any developer can propose a solution to an issue. All proposed solutions get
+                                            evaluated,
+                                            and the most suitable solution is determined.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="v-pills-approve" role="tabpanel"
+                                 aria-labelledby="v-pills-approve-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center flex-column">
+                                        <div class="text-center d-block d-md-none">
+                                            <h3>Approve solution</h3>
+                                        </div>
+                                        <div class="svg--nav-pills">
+                                            {% include svg/approve-solution.html %}
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8 d-flex justify-content-center flex-column">
+                                        <h3 class="d-none d-md-block">Approve solution</h3>
+                                        <p>
+                                            After the issue is solved, all funds are transferred. The developer that
+                                            came up
+                                            with
+                                            the best solution will be notified, and is then able to collect their reward.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="triangle triangle--top"></div>
+    <div class="triangle triangle--bottom"></div>
+    <a class="scrolltonext scrolltonext--top" data-scroll-to="current" href="#"></a>
+    <a class="scrolltonext" data-scroll-to="next" href="#"></a>
+</section>
