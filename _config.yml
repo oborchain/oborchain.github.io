@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "oborchain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: aruzikulov
 github_username:  aruzikulov
+timezone: UTC+08:00
 
 # Build settings
 markdown: kramdown
