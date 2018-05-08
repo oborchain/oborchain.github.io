@@ -255,14 +255,14 @@ a.anchor {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  min-height: 50px;
+  min-height: 0px;
   margin: 0;
   width: 100%;
   border-bottom: 1px solid rgba(48, 181, 97, 0.85);
 }
 
 .alert--top + .alert-container {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .fnd-user-avatar {

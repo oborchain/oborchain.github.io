@@ -379,7 +379,7 @@ a.partner-link:active, a.partner-link:focus {
 @media (min-width: 768px) {
   .fnd-header.navbar-dark {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }
 
