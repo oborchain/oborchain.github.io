@@ -101,12 +101,30 @@ h2 .svg-inline--fa {
   top: 48px;
 }
 
+.horizontal-line {
+  background-color: #74bfe7;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  top: 48px;
+}
+
 @media (min-width: 768px) {
   .vertical-line {
     width: 2px;
     height: 100%;
     left: 55px;
     top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .horizontal-line {
+    width: 30%;
+    height: 2px;
+    left: 35%;
+    top: 90px;
   }
 }
 
