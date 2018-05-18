@@ -2307,7 +2307,7 @@ a.anchor {
 
 .section {
   position: relative;
-  padding: 19rem 0;
+  padding: 1rem 0;
 }
 
 .section::before, .section::after {
@@ -2358,7 +2358,7 @@ a.anchor {
 }
 
 .section--white {
-  padding: 16rem 0 14.5rem 0;
+  padding: 1rem 0 14.5rem 0;
 }
 
 .section--blue {
